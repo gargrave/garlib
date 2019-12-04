@@ -8,12 +8,12 @@ A general multi-purpose, Swiss Army Knife, Jack of all trades, one-stop shop, ja
 
 It's a modest collection of JS/TS helpers and utilities gathered into one place. Sort of a "poor man's Lodash," although it would have to be _very_ poor in this case, since Lodash is already very free.
 
-You may find something of use here, but may also _not_ find something of use here. 🤷‍♂️
+Let's put it this way: you may find something of use here, but you may also _not_ find something of use here. 🤷‍♂️
 
 ## Usage
 
 - Install with `yarn add @gargrave/garlib` (or the `npm` variant if you prefer)
-- Import what you need, and starting benefitting
+- Import what you need, and starting benefitting greatly
 
 ## Docs
 
