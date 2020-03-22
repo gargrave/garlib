@@ -9,12 +9,14 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "src"
+    "lib"
   ],
   "scripts": {
     "clean:dist": "yarn rimraf dist",
-    "prebuild": "jest && yarn clean:dist && yarn build:types",
+    "clean:lib": "yarn rimraf lib",
+    "prebuild": "jest && yarn clean:dist && yarn build:lib && yarn build:types",
     "build": "rollup -c",
+    "build:lib": "yarn clean:lib && tsc --outDir 'lib'",
     "build:types": "tsc --emitDeclarationOnly",
     "release": "yarn build && yarn np --yolo",
     "lint": "eslint --ext .ts,.tsx ./src",

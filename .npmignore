@@ -3,6 +3,7 @@
 
 docs
 node_modules
+*.spec.ts
 
 *.tgz
 .babelrc
