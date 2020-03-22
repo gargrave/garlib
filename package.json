@@ -8,7 +8,8 @@
   "module": "dist/garlib.esm.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "clean:dist": "yarn rimraf dist",
@@ -37,6 +38,7 @@
     "eslint-loader": "^3.0.2",
     "eslint-plugin-import": "^2.18.2",
     "husky": "^3.1.0",
+    "jest": "^25.1.0",
     "np": "^5.2.1",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
